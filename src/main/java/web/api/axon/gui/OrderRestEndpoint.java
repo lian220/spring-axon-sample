@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import web.api.axon.coreapi.Command.AddProductCommand;
 import web.api.axon.coreapi.Command.ConfirmOrderCommand;
 import web.api.axon.coreapi.Command.CreateOrderCommand;
 import web.api.axon.coreapi.Command.ShipOrderCommand;
@@ -38,6 +39,11 @@ public class OrderRestEndpoint {
     @PostMapping("/order/{order-id}")
     public CompletableFuture<String> createOrder(@PathVariable("order-id") String orderId) {
         return commandGateway.send(new CreateOrderCommand(orderId));
+    }
+
+    @PostMapping("/order/{order-id}/product/{product-id}")
+    public CompletableFuture<Void> addProduct(@PathVariable("order-id") String orderId, @PathVariable("product-id") String productId) {
+        return commandGateway.send(new AddProductCommand(orderId, productId));
     }
 
     @PostMapping("/ship-order")
