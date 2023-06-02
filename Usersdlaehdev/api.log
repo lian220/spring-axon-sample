@@ -1,0 +1,1229 @@
+INFO  23-06-02 09:20:38[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 4040 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:20:38[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:20:39[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:20:39[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:20:40[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-02 09:20:40[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-02 09:20:40[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:20:40[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:20:41[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:20:41[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2205 ms
+INFO  23-06-02 09:20:41[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:20:41[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:20:41[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:20:41[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:20:41[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:20:41[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:20:42[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:20:42[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:20:43[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:20:44[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+WARN  23-06-02 09:20:44[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+INFO  23-06-02 09:20:44[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 09:20:44[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-02 09:20:44[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-02 09:20:44[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-02 09:20:44[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  23-06-02 09:20:44[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  23-06-02 09:20:44[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  23-06-02 09:20:44[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 23-06-02 09:20:44[main] [LoggingFailureAnalysisReporter:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+INFO  23-06-02 09:21:03[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 2772 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:21:03[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:21:04[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:21:04[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:21:05[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8090 (http)
+INFO  23-06-02 09:21:05[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8090"]
+INFO  23-06-02 09:21:05[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:21:05[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:21:05[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:21:05[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1668 ms
+INFO  23-06-02 09:21:05[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:21:05[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:21:05[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:21:05[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:21:06[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:21:06[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:21:06[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:21:06[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:21:07[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:21:08[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 26720 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:21:08[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:21:08[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8090"]
+INFO  23-06-02 09:21:08[main] [TomcatWebServer:220] - Tomcat started on port(s): 8090 (http) with context path ''
+INFO  23-06-02 09:21:08[main] [ApiApplication:61] - Started ApiApplication in 5.584 seconds (JVM running for 6.103)
+INFO  23-06-02 09:21:09[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:21:09[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:21:09[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8090 (http)
+INFO  23-06-02 09:21:09[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8090"]
+INFO  23-06-02 09:21:09[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:21:09[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:21:10[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:21:10[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1915 ms
+INFO  23-06-02 09:21:10[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:21:10[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:21:10[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:21:10[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:21:11[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:21:11[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:21:11[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:21:11[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:21:12[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:21:13[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8090"]
+WARN  23-06-02 09:21:13[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+INFO  23-06-02 09:21:13[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 09:21:13[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-02 09:21:13[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-02 09:21:13[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8090"]
+INFO  23-06-02 09:21:13[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  23-06-02 09:21:13[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8090"]
+INFO  23-06-02 09:21:13[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8090"]
+INFO  23-06-02 09:21:13[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 23-06-02 09:21:13[main] [LoggingFailureAnalysisReporter:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+INFO  23-06-02 09:22:06[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 26812 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:22:06[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:22:07[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:22:07[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:22:08[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8083 (http)
+INFO  23-06-02 09:22:08[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8083"]
+INFO  23-06-02 09:22:08[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:22:08[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:22:08[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:22:08[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1555 ms
+INFO  23-06-02 09:22:08[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:22:08[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:22:08[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:22:08[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:22:09[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:22:09[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:22:09[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:22:09[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:22:10[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:22:10[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8083"]
+INFO  23-06-02 09:22:11[main] [TomcatWebServer:220] - Tomcat started on port(s): 8083 (http) with context path ''
+INFO  23-06-02 09:22:11[main] [ApiApplication:61] - Started ApiApplication in 4.928 seconds (JVM running for 5.498)
+INFO  23-06-02 09:23:48[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 19324 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:23:48[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:23:48[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:23:48[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:23:49[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:23:49[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:23:49[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:23:49[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:23:50[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:23:50[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1756 ms
+INFO  23-06-02 09:23:50[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:23:50[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:23:50[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:23:50[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:23:50[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:23:50[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:23:51[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:23:51[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:23:51[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:23:52[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:23:52[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:23:52[main] [ApiApplication:61] - Started ApiApplication in 5.168 seconds (JVM running for 5.733)
+INFO  23-06-02 09:25:34[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 6936 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:25:34[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:25:35[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:25:35[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:25:35[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:25:35[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:25:35[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:25:35[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:25:36[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:25:36[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1603 ms
+INFO  23-06-02 09:25:36[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:25:36[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:25:36[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:25:36[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:25:36[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:25:36[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:25:37[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:25:37[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:25:37[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:25:38[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:25:38[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:25:38[main] [ApiApplication:61] - Started ApiApplication in 4.769 seconds (JVM running for 5.322)
+INFO  23-06-02 09:25:48[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 3652 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:25:48[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:25:49[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:25:49[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:25:50[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:25:50[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:25:50[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:25:50[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:25:50[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:25:50[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1607 ms
+INFO  23-06-02 09:25:50[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:25:50[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:25:50[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:25:50[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:25:51[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:25:51[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:25:51[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:25:51[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:25:52[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:25:52[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:25:53[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:25:53[main] [ApiApplication:61] - Started ApiApplication in 4.878 seconds (JVM running for 5.487)
+INFO  23-06-02 09:41:53[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 20292 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:41:53[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:41:54[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:41:54[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:41:55[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:41:55[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:41:55[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:41:55[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:41:55[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:41:55[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1618 ms
+INFO  23-06-02 09:41:55[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:41:55[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:41:55[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:41:55[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:41:56[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:41:56[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:41:56[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:41:56[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:41:57[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:41:58[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:41:58[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:41:58[main] [ApiApplication:61] - Started ApiApplication in 4.955 seconds (JVM running for 5.475)
+INFO  23-06-02 09:43:19[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 23092 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:43:19[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:43:20[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:43:20[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:43:21[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:43:21[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:43:21[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:43:21[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:43:21[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:43:21[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1742 ms
+INFO  23-06-02 09:43:21[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:43:21[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:43:21[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:43:22[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:43:22[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:43:22[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:43:22[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:43:22[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:43:23[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:43:24[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:43:24[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:43:24[main] [ApiApplication:61] - Started ApiApplication in 5.2 seconds (JVM running for 5.861)
+INFO  23-06-02 09:46:36[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 6888 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:46:36[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:46:36[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:46:36[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:46:37[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:46:37[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:46:37[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:46:37[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:46:37[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:46:37[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1609 ms
+INFO  23-06-02 09:46:37[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:46:38[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:46:38[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:46:38[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:46:38[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:46:38[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:46:39[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:46:39[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:46:40[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:46:40[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:46:41[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:46:41[main] [ApiApplication:61] - Started ApiApplication in 5.631 seconds (JVM running for 7.291)
+INFO  23-06-02 09:48:04[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 26664 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:48:04[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:48:05[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:48:05[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:48:05[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:48:05[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:48:05[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:48:05[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:48:06[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:48:06[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1689 ms
+INFO  23-06-02 09:48:06[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:48:06[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:48:06[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:48:06[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:48:07[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:48:07[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:48:07[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:48:07[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:48:08[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:48:09[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:48:09[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:48:09[main] [ApiApplication:61] - Started ApiApplication in 5.633 seconds (JVM running for 6.411)
+INFO  23-06-02 09:58:59[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 11496 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:58:59[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:59:00[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:59:00[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:59:00[main] [ConfigurationClassPostProcessor:426] - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#30c4e352#30' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#30c4e352#30' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#1db7157f#30' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#14f060b8' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#69a5c6be' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#69a5c6be' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#15d236fd' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#15d236fd' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:00[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:01[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:59:01[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:59:01[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:59:01[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:59:01[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:59:01[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2271 ms
+INFO  23-06-02 09:59:01[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:59:01[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:59:02[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:59:02[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:59:02[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:59:02[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:59:03[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:59:03[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:59:03[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:59:04[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 09:59:04[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 09:59:04[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 09:59:04[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 09:59:04[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 09:59:04[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 09:59:04[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 09:59:04[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+INFO  23-06-02 09:59:05[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 09:59:05[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 09:59:05[main] [ControlChannelImpl:167] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 09:59:05[main] [CommandChannelImpl:187] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 09:59:05[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 09:59:05[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:59:05[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:59:05[main] [ApiApplication:61] - Started ApiApplication in 6.568 seconds (JVM running for 7.355)
+INFO  23-06-02 09:59:42[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 18748 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 09:59:42[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 09:59:43[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 09:59:43[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 09:59:43[main] [ConfigurationClassPostProcessor:426] - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+INFO  23-06-02 09:59:43[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#2ddb3ae8#30' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:43[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#2ddb3ae8#30' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:43[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#51a18b21#30' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:43[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#3002e397' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#3f5dfe69' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#3f5dfe69' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#5faeeb56' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#5faeeb56' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 09:59:44[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 09:59:44[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:59:44[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 09:59:44[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 09:59:44[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 09:59:44[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2328 ms
+INFO  23-06-02 09:59:45[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 09:59:45[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 09:59:45[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 09:59:45[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 09:59:45[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 09:59:45[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 09:59:46[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 09:59:46[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 09:59:47[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 09:59:47[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 09:59:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 09:59:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 09:59:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 09:59:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 09:59:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 09:59:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 09:59:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+INFO  23-06-02 09:59:48[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8080
+WARN  23-06-02 09:59:49[main] [AxonServerManagedChannel:146] - Connecting to AxonServer node [127.0.0.1:8080] failed.
+io.grpc.StatusRuntimeException: UNAVAILABLE: Network closed for unknown reason
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:262)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:243)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:156)
+	at io.axoniq.axonserver.grpc.control.PlatformServiceGrpc$PlatformServiceBlockingStub.getPlatformServer(PlatformServiceGrpc.java:250)
+	at io.axoniq.axonserver.connector.impl.AxonServerManagedChannel.connectChannel(AxonServerManagedChannel.java:115)
+	at io.axoniq.axonserver.connector.impl.AxonServerManagedChannel.createConnection(AxonServerManagedChannel.java:335)
+	at io.axoniq.axonserver.connector.impl.AxonServerManagedChannel.ensureConnected(AxonServerManagedChannel.java:300)
+	at io.axoniq.axonserver.connector.impl.AxonServerManagedChannel.getState(AxonServerManagedChannel.java:227)
+	at io.axoniq.axonserver.connector.impl.ContextConnection.ensureConnected(ContextConnection.java:195)
+	at io.axoniq.axonserver.connector.impl.ContextConnection.connect(ContextConnection.java:152)
+	at io.axoniq.axonserver.connector.AxonServerConnectionFactory.connect(AxonServerConnectionFactory.java:166)
+	at org.axonframework.axonserver.connector.AxonServerConnectionManager.createConnection(AxonServerConnectionManager.java:124)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.axonframework.axonserver.connector.AxonServerConnectionManager.getConnection(AxonServerConnectionManager.java:120)
+	at org.axonframework.axonserver.connector.AxonServerConnectionManager.getConnection(AxonServerConnectionManager.java:109)
+	at org.axonframework.axonserver.connector.command.AxonServerCommandBus.subscribe(AxonServerCommandBus.java:189)
+	at org.axonframework.spring.config.CommandHandlerSubscriber.lambda$start$1(CommandHandlerSubscriber.java:91)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.axonframework.spring.config.CommandHandlerSubscriber.start(CommandHandlerSubscriber.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at web.api.ApiApplication.main(ApiApplication.java:11)
+INFO  23-06-02 09:59:49[main] [AxonServerManagedChannel:358] - Failed to get connection to AxonServer. Scheduling a reconnect in 2000ms
+INFO  23-06-02 09:59:49[main] [CommandChannelImpl:187] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 09:59:49[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 09:59:49[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 09:59:49[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 09:59:49[main] [ApiApplication:61] - Started ApiApplication in 6.999 seconds (JVM running for 7.812)
+INFO  23-06-02 09:59:51[axon-connector-18748@limdoyoung-1] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8080
+WARN  23-06-02 09:59:51[axon-connector-18748@limdoyoung-1] [AxonServerManagedChannel:148] - Connecting to AxonServer node [127.0.0.1:8080] failed: UNAVAILABLE: Network closed for unknown reason
+INFO  23-06-02 09:59:51[axon-connector-18748@limdoyoung-1] [AxonServerManagedChannel:358] - Failed to get connection to AxonServer. Scheduling a reconnect in 2000ms
+INFO  23-06-02 09:59:53[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8080
+WARN  23-06-02 09:59:53[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:148] - Connecting to AxonServer node [127.0.0.1:8080] failed: UNAVAILABLE: Network closed for unknown reason
+INFO  23-06-02 09:59:53[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:358] - Failed to get connection to AxonServer. Scheduling a reconnect in 2000ms
+INFO  23-06-02 09:59:55[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8080
+WARN  23-06-02 09:59:55[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:148] - Connecting to AxonServer node [127.0.0.1:8080] failed: UNAVAILABLE: Network closed for unknown reason
+INFO  23-06-02 09:59:55[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:358] - Failed to get connection to AxonServer. Scheduling a reconnect in 2000ms
+INFO  23-06-02 09:59:57[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8080
+WARN  23-06-02 09:59:57[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:148] - Connecting to AxonServer node [127.0.0.1:8080] failed: UNAVAILABLE: Network closed for unknown reason
+INFO  23-06-02 09:59:57[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:358] - Failed to get connection to AxonServer. Scheduling a reconnect in 2000ms
+INFO  23-06-02 09:59:59[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8080
+WARN  23-06-02 09:59:59[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:148] - Connecting to AxonServer node [127.0.0.1:8080] failed: UNAVAILABLE: Network closed for unknown reason
+INFO  23-06-02 09:59:59[axon-connector-18748@limdoyoung-0] [AxonServerManagedChannel:358] - Failed to get connection to AxonServer. Scheduling a reconnect in 2000ms
+INFO  23-06-02 10:04:54[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 20000 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 10:04:54[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 10:04:55[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 10:04:55[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 10:04:55[main] [ConfigurationClassPostProcessor:426] - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+INFO  23-06-02 10:04:55[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#30c4e352#30' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:55[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#30c4e352#30' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:55[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#1db7157f#30' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:55[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#14f060b8' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:55[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:55[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:55[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#69a5c6be' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:56[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#69a5c6be' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:56[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#15d236fd' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:56[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#15d236fd' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:56[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:04:56[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 10:04:56[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 10:04:56[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 10:04:56[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 10:04:56[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 10:04:56[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2225 ms
+INFO  23-06-02 10:04:57[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 10:04:57[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 10:04:57[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 10:04:57[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 10:04:57[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 10:04:57[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 10:04:58[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 10:04:58[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 10:04:58[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 10:04:59[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 10:04:59[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 10:04:59[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 10:04:59[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 10:04:59[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 10:04:59[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 10:04:59[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 10:04:59[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+INFO  23-06-02 10:05:00[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 10:05:00[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 10:05:00[main] [ControlChannelImpl:167] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 10:05:00[main] [CommandChannelImpl:187] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 10:05:00[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 10:05:00[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 10:05:00[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 10:05:00[main] [ApiApplication:61] - Started ApiApplication in 6.536 seconds (JVM running for 7.305)
+INFO  23-06-02 10:08:07[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 29292 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 10:08:07[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 10:08:08[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 10:08:08[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 10:08:08[main] [ConfigurationClassPostProcessor:426] - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+INFO  23-06-02 10:08:08[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#732f6050#30' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:08[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#732f6050#30' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#2806d6da#30' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#38159384' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#3a788fe0' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#3a788fe0' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#279126f5' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#279126f5' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:08:09[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 10:08:09[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 10:08:09[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 10:08:09[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 10:08:09[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 10:08:09[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2088 ms
+INFO  23-06-02 10:08:10[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 10:08:10[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 10:08:10[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 10:08:10[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 10:08:10[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 10:08:10[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 10:08:11[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 10:08:11[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 10:08:12[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 10:08:12[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 10:08:12[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 10:08:12[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 10:08:12[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 10:08:12[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 10:08:12[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 10:08:12[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 10:08:12[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+INFO  23-06-02 10:08:13[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 10:08:13[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 10:08:13[main] [ControlChannelImpl:167] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 10:08:13[main] [CommandChannelImpl:187] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 10:08:13[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 10:08:13[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 10:08:13[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 10:08:13[EventProcessor[web.api]-0] [TrackingEventProcessor:1099] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 10:08:13[EventProcessor[web.api]-0] [TrackingEventProcessor:1160] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 10:08:13[EventProcessor[web.api]-0] [TrackingEventProcessor:542] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 10:08:14[main] [ApiApplication:61] - Started ApiApplication in 6.627 seconds (JVM running for 7.473)
+INFO  23-06-02 10:08:22[http-nio-5000-exec-4] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-02 10:08:22[http-nio-5000-exec-4] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-02 10:08:22[http-nio-5000-exec-4] [DispatcherServlet:547] - Completed initialization in 1 ms
+WARN  23-06-02 10:43:43[HikariPool-1 housekeeper] [HikariPool:788] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m32s329ms586?s700ns).
+INFO  23-06-02 10:45:36[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 19556 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 10:45:36[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 10:45:37[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 10:45:37[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 10:45:37[main] [ConfigurationClassPostProcessor:426] - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#692dba54#32' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#692dba54#32' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#7beae796#32' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#4f664bee' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#40bd0f8' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#40bd0f8' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#454bcbbf' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '(inner bean)#454bcbbf' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23-06-02 10:45:38[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 10:45:38[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 10:45:38[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 10:45:38[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 10:45:39[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 10:45:39[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2594 ms
+INFO  23-06-02 10:45:39[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 10:45:39[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 10:45:39[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 10:45:39[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 10:45:40[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 10:45:40[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 10:45:40[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 10:45:40[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-02 10:45:41[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 10:45:41[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 10:45:41[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 10:45:41[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 10:45:41[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 10:45:41[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 10:45:41[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 10:45:41[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 10:45:41[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+INFO  23-06-02 10:45:42[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 10:45:42[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 10:45:42[main] [ControlChannelImpl:167] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 10:45:42[main] [CommandChannelImpl:187] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 10:45:42[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 10:45:42[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 10:45:43[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 10:45:43[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 10:45:43[EventProcessor[web.api]-0] [TrackingEventProcessor:1099] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 10:45:43[EventProcessor[web.api]-0] [TrackingEventProcessor:1160] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 10:45:43[EventProcessor[web.api]-0] [TrackingEventProcessor:542] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 10:45:43[main] [ApiApplication:61] - Started ApiApplication in 7.112 seconds (JVM running for 8.093)
+INFO  23-06-02 10:56:04[http-nio-5000-exec-2] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-02 10:56:04[http-nio-5000-exec-2] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-02 10:56:04[http-nio-5000-exec-2] [DispatcherServlet:547] - Completed initialization in 3 ms
+INFO  23-06-02 10:56:48[http-nio-5000-exec-8] [ExceptHandler:31] - ExceptHandler.commonException = Required request body is missing: public org.springframework.http.ResponseEntity web.api.controller.MemberController.saveMember(web.api.domain.Member)
+INFO  23-06-02 12:59:21[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 25760 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 12:59:21[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 12:59:22[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 12:59:22[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 12:59:23[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 12:59:23[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 12:59:23[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 12:59:23[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 12:59:24[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 12:59:24[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2522 ms
+INFO  23-06-02 12:59:24[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 12:59:24[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 12:59:25[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 12:59:25[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 12:59:25[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 12:59:25[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 12:59:26[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 12:59:26[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 12:59:26[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 12:59:27[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 12:59:27[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 12:59:27[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 12:59:27[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 12:59:27[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 12:59:27[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 12:59:27[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 12:59:27[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 12:59:27[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 12:59:27[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderRestEndpoint' defined in file [C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes\web\api\domain\order\EndPoint\OrderRestEndpoint.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commandGateway' defined in class path resource [org/axonframework/springboot/autoconfig/AxonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'commandGateway' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'axonServerCommandBus' defined in class path resource [org/axonframework/springboot/autoconfig/AxonServerBusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'axonServerCommandBus' parameter 2; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commandBus' defined in class path resource [org/axonframework/springboot/autoconfig/AxonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'commandBus' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springAxonConfiguration': FactoryBean threw exception on object creation; nested exception is java.lang.NoSuchMethodError: 'org.axonframework.tracing.SpanFactory org.axonframework.config.Configuration.spanFactory()'
+INFO  23-06-02 12:59:27[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 12:59:27[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-02 12:59:27[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-02 12:59:27[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  23-06-02 12:59:27[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 23-06-02 12:59:27[main] [LoggingFailureAnalysisReporter:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.axonframework.springboot.autoconfig.AxonTracingAutoConfiguration.lambda$null$0(AxonTracingAutoConfiguration.java:75)
+
+The following method did not exist:
+
+    'org.axonframework.tracing.SpanFactory org.axonframework.config.Configuration.spanFactory()'
+
+The calling method's class, org.axonframework.springboot.autoconfig.AxonTracingAutoConfiguration, was loaded from the following location:
+
+    jar:file:/C:/Users/dlaeh/.m2/repository/org/axonframework/axon-spring-boot-autoconfigure/4.6.3/axon-spring-boot-autoconfigure-4.6.3.jar!/org/axonframework/springboot/autoconfig/AxonTracingAutoConfiguration.class
+
+The called method's class, org.axonframework.config.Configuration, is available from the following locations:
+
+    jar:file:/C:/Users/dlaeh/.m2/repository/org/axonframework/axon-configuration/4.5.8/axon-configuration-4.5.8.jar!/org/axonframework/config/Configuration.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.axonframework.config.Configuration: file:/C:/Users/dlaeh/.m2/repository/org/axonframework/axon-configuration/4.5.8/axon-configuration-4.5.8.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.axonframework.springboot.autoconfig.AxonTracingAutoConfiguration and org.axonframework.config.Configuration
+
+INFO  23-06-02 13:00:30[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 24044 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:00:30[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:00:31[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:00:31[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:00:32[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:00:32[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:00:32[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:00:32[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:00:33[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:00:33[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2591 ms
+INFO  23-06-02 13:00:33[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:00:33[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:00:33[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:00:33[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:00:33[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:00:33[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:00:34[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:00:34[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:00:35[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:00:35[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:00:35[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:00:35[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:00:35[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:00:35[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:00:35[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:00:35[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:00:35[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:00:35[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:00:35[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:00:37[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:00:37[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 13:00:37[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 13:00:37[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 13:00:37[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 13:00:37[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 13:00:37[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 13:00:37[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 13:00:37[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 13:00:37[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 13:00:37[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 13:00:37[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 13:00:38[main] [ApiApplication:61] - Started ApiApplication in 8.021 seconds (JVM running for 8.896)
+INFO  23-06-02 13:00:38[EventProcessor[web.api]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:00:38[EventProcessor[web.api]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 13:00:38[EventProcessor[web.api]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:00:38[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:00:38[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 13:00:38[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:08:39[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 34456 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:08:39[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:08:41[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:08:41[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:08:43[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:08:43[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:08:43[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:08:43[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:08:44[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:08:44[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 5104 ms
+INFO  23-06-02 13:08:45[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:08:45[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:08:45[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:08:46[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:08:46[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:08:46[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:08:48[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:08:48[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:08:48[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:08:49[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:08:49[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:08:49[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:08:49[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:08:49[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:08:49[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:08:49[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:08:49[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:08:49[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:08:49[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:08:54[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+WARN  23-06-02 13:08:54[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 5000 is already in use
+INFO  23-06-02 13:08:54[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:08:54[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-02 13:08:54[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-02 13:08:54[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:08:54[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  23-06-02 13:08:54[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:08:54[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:08:54[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 23-06-02 13:08:54[main] [LoggingFailureAnalysisReporter:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5000 or configure this application to listen on another port.
+
+INFO  23-06-02 13:09:14[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 32024 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:09:14[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:09:17[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:09:27[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 6036 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:09:27[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:09:30[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:09:30[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 208 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:09:34[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:09:34[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:09:34[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:09:34[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:09:35[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:09:35[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 8022 ms
+INFO  23-06-02 13:09:37[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:09:37[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:09:37[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:09:38[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:09:39[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:09:39[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:09:43[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:09:43[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:09:45[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:09:46[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:09:46[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:09:46[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:09:46[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:09:46[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:09:46[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:09:46[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:09:46[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:09:46[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:09:49[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:09:53[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:09:53[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 13:09:57[http-nio-5000-exec-2] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-02 13:09:57[http-nio-5000-exec-2] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-02 13:09:57[http-nio-5000-exec-2] [DispatcherServlet:547] - Completed initialization in 4 ms
+INFO  23-06-02 13:09:57[http-nio-5000-exec-2] [ExceptHandler:31] - ExceptHandler.commonException = Request method 'GET' not supported
+INFO  23-06-02 13:09:58[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 13:10:00[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 13:10:00[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 13:10:00[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 13:10:00[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 13:10:00[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 13:10:00[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 13:10:00[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 13:10:00[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 13:10:00[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 13:10:00[main] [ApiApplication:61] - Started ApiApplication in 34.038 seconds (JVM running for 36.362)
+INFO  23-06-02 13:10:00[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:10:00[EventProcessor[web.api]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:10:01[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 13:10:01[EventProcessor[web.api]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 13:10:01[EventProcessor[web.api]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:10:01[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:10:35[http-nio-5000-exec-3] [ExceptHandler:31] - ExceptHandler.commonException = Request method 'GET' not supported
+INFO  23-06-02 13:10:58[http-nio-5000-exec-4] [ExceptHandler:31] - ExceptHandler.commonException = Request method 'GET' not supported
+WARN  23-06-02 13:11:15[grpc-default-executor-2] [DefaultCommandGateway:85] - Command 'web.api.domain.order.Command.CreateOrderCommand' resulted in org.axonframework.commandhandling.CommandExecutionException(Unresolved compilation problem: 
+	The method getProductId() is undefined for the type CreateOrderCommand
+)
+INFO  23-06-02 13:11:15[http-nio-5000-exec-6] [ExceptHandler:31] - ExceptHandler.commonException = Unresolved compilation problem: 
+	The method getProductId() is undefined for the type CreateOrderCommand
+
+INFO  23-06-02 13:12:45[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 34596 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:12:45[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:12:46[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:12:46[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:12:47[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:12:47[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:12:47[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:12:47[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:12:48[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:12:48[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2710 ms
+INFO  23-06-02 13:12:48[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:12:48[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:12:48[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:12:48[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:12:49[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:12:49[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:12:49[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:12:49[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:12:50[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:12:50[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:12:50[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:12:50[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:12:50[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:12:50[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:12:50[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:12:50[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:12:50[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:12:50[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:12:50[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:12:51[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:12:51[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 13:12:53[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 13:12:54[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 13:12:54[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 13:12:54[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 13:12:54[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 13:12:54[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 13:12:54[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 13:12:54[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 13:12:54[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 13:12:54[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 13:12:54[main] [ApiApplication:61] - Started ApiApplication in 9.594 seconds (JVM running for 10.418)
+INFO  23-06-02 13:12:54[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:12:54[EventProcessor[web.api]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:12:54[EventProcessor[web.api]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 13:12:54[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 13:12:54[EventProcessor[web.api]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:12:54[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+WARN  23-06-02 13:29:14[HikariPool-1 housekeeper] [HikariPool:788] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m55s448ms508?s).
+INFO  23-06-02 13:29:38[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 32928 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:29:38[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:29:39[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:29:39[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:29:40[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:29:40[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:29:40[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:29:40[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:29:40[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:29:40[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2521 ms
+INFO  23-06-02 13:29:41[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:29:41[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:29:41[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:29:41[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:29:41[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:29:41[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:29:42[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:29:42[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:29:43[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:29:43[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:29:43[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:29:43[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:29:43[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:29:43[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:29:43[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:29:43[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:29:43[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:29:43[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:29:43[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:29:44[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:29:44[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 13:29:45[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 13:29:45[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 13:29:45[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 13:29:45[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 13:29:45[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 13:29:45[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 13:29:45[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 13:29:45[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 13:29:45[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 13:29:45[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 13:29:45[main] [ApiApplication:61] - Started ApiApplication in 7.85 seconds (JVM running for 8.81)
+INFO  23-06-02 13:29:45[EventProcessor[web.api]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:29:45[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:29:45[EventProcessor[web.api]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 13:29:45[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 13:29:45[EventProcessor[web.api]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:29:45[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:29:50[http-nio-5000-exec-2] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-02 13:29:50[http-nio-5000-exec-2] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-02 13:29:50[http-nio-5000-exec-2] [DispatcherServlet:547] - Completed initialization in 2 ms
+WARN  23-06-02 13:29:50[grpc-default-executor-0] [DefaultCommandGateway:85] - Command 'web.api.domain.order.Command.CreateOrderCommand' resulted in org.axonframework.commandhandling.CommandExecutionException(Unresolved compilation problem: 
+	The method getProductId() is undefined for the type CreateOrderCommand
+)
+INFO  23-06-02 13:29:50[http-nio-5000-exec-3] [ExceptHandler:31] - ExceptHandler.commonException = Unresolved compilation problem: 
+	The method getProductId() is undefined for the type CreateOrderCommand
+
+INFO  23-06-02 13:30:34[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 32144 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:30:34[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:30:35[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:30:35[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:30:36[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:30:36[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:30:36[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:30:36[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:30:37[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:30:37[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2790 ms
+INFO  23-06-02 13:30:37[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:30:37[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:30:38[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:30:38[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:30:38[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:30:38[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:30:39[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:30:39[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:30:39[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:30:40[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:30:40[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:30:40[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:30:40[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:30:40[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:30:40[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:30:40[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:30:40[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:30:40[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:30:40[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:30:41[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:30:41[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 13:30:42[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 13:30:42[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 13:30:42[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 13:30:42[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 13:30:42[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 13:30:42[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 13:30:42[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 13:30:42[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 13:30:42[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 13:30:42[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 13:30:42[main] [ApiApplication:61] - Started ApiApplication in 8.691 seconds (JVM running for 9.591)
+INFO  23-06-02 13:30:42[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:30:42[EventProcessor[web.api]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:30:42[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 13:30:42[EventProcessor[web.api]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 13:30:42[EventProcessor[web.api]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:30:42[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:30:44[http-nio-5000-exec-5] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-02 13:30:44[http-nio-5000-exec-5] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-02 13:30:44[http-nio-5000-exec-5] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-02 13:30:44[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:373] - Released claim
+ERROR 23-06-02 13:30:44[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1147] - Processing loop ended due to uncaught exception. Pausing processor in Error State.
+java.lang.Error: Unresolved compilation problem: 
+	The method getProductId() is undefined for the type OrderCreatedEvent
+
+	at web.api.domain.order.Handler.OrdersEventHandler.on(OrdersEventHandler.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.axonframework.messaging.annotation.AnnotatedMessageHandlingMember.handle(AnnotatedMessageHandlingMember.java:153)
+	at org.axonframework.messaging.annotation.WrappedMessageHandlingMember.handle(WrappedMessageHandlingMember.java:64)
+	at org.axonframework.tracing.TracingHandlerEnhancerDefinition$1.lambda$handle$1(TracingHandlerEnhancerDefinition.java:84)
+	at org.axonframework.tracing.Span.runCallable(Span.java:103)
+	at org.axonframework.tracing.TracingHandlerEnhancerDefinition$1.handle(TracingHandlerEnhancerDefinition.java:84)
+	at org.axonframework.messaging.annotation.AnnotatedHandlerInspector$NoMoreInterceptors.handle(AnnotatedHandlerInspector.java:386)
+	at org.axonframework.eventhandling.AnnotationEventHandlerAdapter.handle(AnnotationEventHandlerAdapter.java:94)
+	at org.axonframework.eventhandling.SimpleEventHandlerInvoker.invokeHandlers(SimpleEventHandlerInvoker.java:128)
+	at org.axonframework.eventhandling.SimpleEventHandlerInvoker.handle(SimpleEventHandlerInvoker.java:114)
+	at org.axonframework.eventhandling.MultiEventHandlerInvoker.handle(MultiEventHandlerInvoker.java:91)
+	at org.axonframework.eventhandling.AbstractEventProcessor.lambda$null$1(AbstractEventProcessor.java:173)
+	at org.axonframework.messaging.DefaultInterceptorChain.proceed(DefaultInterceptorChain.java:57)
+	at org.axonframework.messaging.interceptors.CorrelationDataInterceptor.handle(CorrelationDataInterceptor.java:67)
+	at org.axonframework.messaging.DefaultInterceptorChain.proceed(DefaultInterceptorChain.java:55)
+	at org.axonframework.tracing.Span.runCallable(Span.java:103)
+	at org.axonframework.eventhandling.TrackingEventProcessor.lambda$new$3(TrackingEventProcessor.java:185)
+	at org.axonframework.messaging.DefaultInterceptorChain.proceed(DefaultInterceptorChain.java:55)
+	at org.axonframework.eventhandling.TrackingEventProcessor.lambda$new$1(TrackingEventProcessor.java:179)
+	at org.axonframework.messaging.DefaultInterceptorChain.proceed(DefaultInterceptorChain.java:55)
+	at org.axonframework.eventhandling.AbstractEventProcessor.lambda$processInUnitOfWork$2(AbstractEventProcessor.java:184)
+	at org.axonframework.messaging.unitofwork.BatchingUnitOfWork.executeWithResult(BatchingUnitOfWork.java:92)
+	at org.axonframework.eventhandling.AbstractEventProcessor.processInUnitOfWork(AbstractEventProcessor.java:166)
+	at org.axonframework.eventhandling.TrackingEventProcessor.processBatch(TrackingEventProcessor.java:490)
+	at org.axonframework.eventhandling.TrackingEventProcessor.processingLoop(TrackingEventProcessor.java:318)
+	at org.axonframework.eventhandling.TrackingEventProcessor$TrackingSegmentWorker.run(TrackingEventProcessor.java:1145)
+	at org.axonframework.eventhandling.TrackingEventProcessor$WorkerLauncher.cleanUp(TrackingEventProcessor.java:1340)
+	at org.axonframework.eventhandling.TrackingEventProcessor$WorkerLauncher.run(TrackingEventProcessor.java:1317)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO  23-06-02 13:30:44[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1181] - Worker for segment Segment[0/0] stopped.
+INFO  23-06-02 13:31:55[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 27120 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:31:55[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:31:56[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:31:56[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:31:57[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:31:57[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:31:57[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:31:57[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:31:58[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:31:58[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2679 ms
+INFO  23-06-02 13:31:58[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:31:58[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:31:58[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:31:59[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:31:59[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:31:59[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:32:00[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:32:00[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:32:00[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:32:00[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:32:00[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:32:00[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:32:00[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:32:00[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:32:00[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:32:00[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:32:00[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:32:00[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:32:01[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:32:02[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:32:02[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 13:32:02[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 13:32:03[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 13:32:03[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 13:32:03[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 13:32:03[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 13:32:03[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 13:32:03[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 13:32:03[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 13:32:03[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 13:32:03[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 13:32:03[main] [ApiApplication:61] - Started ApiApplication in 8.1 seconds (JVM running for 9.115)
+INFO  23-06-02 13:32:03[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:32:03[EventProcessor[web.api]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:32:03[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 13:32:03[EventProcessor[web.api]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 13:32:03[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]
+INFO  23-06-02 13:32:03[EventProcessor[web.api]-0] [TrackingEventProcessor:587] - Fetched token: IndexTrackingToken{globalIndex=0} for segment: Segment[0/0]
+INFO  23-06-02 13:32:05[http-nio-5000-exec-2] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-02 13:32:05[http-nio-5000-exec-2] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-02 13:32:05[http-nio-5000-exec-2] [DispatcherServlet:547] - Completed initialization in 1 ms
+WARN  23-06-02 13:32:12[grpc-default-executor-1] [DefaultCommandGateway:85] - Command 'web.api.domain.order.Command.CreateOrderCommand' resulted in org.axonframework.commandhandling.CommandExecutionException(OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1281615a-694a-4597-93ba-4fa2dfbd140d, expected 1)
+INFO  23-06-02 13:32:12[http-nio-5000-exec-5] [ExceptHandler:31] - ExceptHandler.commonException = OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1281615a-694a-4597-93ba-4fa2dfbd140d, expected 1
+WARN  23-06-02 13:32:45[grpc-default-executor-1] [DefaultCommandGateway:85] - Command 'web.api.domain.order.Command.CreateOrderCommand' resulted in org.axonframework.commandhandling.CommandExecutionException(OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1281615a-694a-4597-93ba-4fa2dfbd140d, expected 1)
+INFO  23-06-02 13:32:45[http-nio-5000-exec-7] [ExceptHandler:31] - ExceptHandler.commonException = OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1281615a-694a-4597-93ba-4fa2dfbd140d, expected 1
+WARN  23-06-02 13:33:50[grpc-default-executor-3] [DefaultCommandGateway:85] - Command 'web.api.domain.order.Command.CreateOrderCommand' resulted in org.axonframework.commandhandling.CommandExecutionException(OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1281615a-694a-4597-93ba-4fa2dfbd140d, expected 1)
+INFO  23-06-02 13:33:50[http-nio-5000-exec-1] [ExceptHandler:31] - ExceptHandler.commonException = OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1281615a-694a-4597-93ba-4fa2dfbd140d, expected 1
+WARN  23-06-02 13:33:56[grpc-default-executor-3] [DefaultCommandGateway:85] - Command 'web.api.domain.order.Command.CreateOrderCommand' resulted in org.axonframework.commandhandling.CommandExecutionException(OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1, expected 1)
+INFO  23-06-02 13:33:56[http-nio-5000-exec-3] [ExceptHandler:31] - ExceptHandler.commonException = OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1, expected 1
+WARN  23-06-02 13:34:03[grpc-default-executor-3] [DefaultCommandGateway:85] - Command 'web.api.domain.order.Command.CreateOrderCommand' resulted in org.axonframework.commandhandling.CommandExecutionException(OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1, expected 1)
+INFO  23-06-02 13:34:03[http-nio-5000-exec-5] [ExceptHandler:31] - ExceptHandler.commonException = OUT_OF_RANGE: [AXONIQ-2000] Invalid sequence number 0 for aggregate 1, expected 1
+INFO  23-06-02 13:34:45[http-nio-5000-exec-4] [ExceptHandler:31] - ExceptHandler.commonException = Request method 'POST' not supported
+INFO  23-06-02 13:51:51[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.3 on limdoyoung with PID 25268 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 13:51:51[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 13:51:51[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 13:51:52[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 13:51:53[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 13:51:53[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:51:53[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 13:51:53[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 13:51:54[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 13:51:54[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2889 ms
+INFO  23-06-02 13:51:54[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 13:51:54[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 13:51:54[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 13:51:54[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 13:51:55[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 13:51:55[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 13:51:56[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 13:51:56[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 13:51:57[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 13:51:57[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 13:51:57[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 13:51:57[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 13:51:57[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 13:51:57[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 13:51:57[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:51:57[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 13:51:57[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 13:51:57[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 13:51:57[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 13:51:59[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 13:51:59[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 13:52:00[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 13:52:00[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 13:52:00[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 13:52:00[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 13:52:00[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 13:52:00[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 13:52:00[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 13:52:00[main] [CommandChannelImpl:248] - Registered handler for command 'java.lang.Object' in context 'default'
+INFO  23-06-02 13:52:00[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 13:52:00[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 13:52:00[main] [ApiApplication:61] - Started ApiApplication in 9.665 seconds (JVM running for 10.629)
+INFO  23-06-02 13:52:00[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:52:00[EventProcessor[web.api]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 13:52:00[EventProcessor[web.api]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api, segment=Segment[0/0]}
+INFO  23-06-02 13:52:00[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 13:52:00[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: IndexTrackingToken{globalIndex=6} for segment: Segment[0/0]
+INFO  23-06-02 13:52:00[EventProcessor[web.api]-0] [TrackingEventProcessor:587] - Fetched token: IndexTrackingToken{globalIndex=6} for segment: Segment[0/0]
+INFO  23-06-02 14:02:42[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.7 on limdoyoung with PID 26156 (C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-sample-event-sourcing)
+INFO  23-06-02 14:02:42[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 14:02:42[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 14:02:43[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 14:02:44[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 14:02:44[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 14:02:44[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 14:02:44[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 14:02:44[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 14:02:44[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2653 ms
+INFO  23-06-02 14:02:45[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 14:02:45[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 14:02:45[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 14:02:45[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 14:02:45[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 14:02:45[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 14:02:46[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 14:02:46[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 14:02:46[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 14:02:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 14:02:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 14:02:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 14:02:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 14:02:47[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 14:02:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 14:02:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 14:02:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 14:02:47[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 14:02:47[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 14:02:48[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 14:02:49[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 14:02:49[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 14:02:49[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 14:02:49[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 14:02:49[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 14:02:49[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 14:02:49[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 14:02:49[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.domain.order.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 14:02:49[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 14:02:49[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.domain.order.Query.FindAllOrderedProductsQuery : java.util.List<web.api.domain.order.Order>' in context 'default'
+INFO  23-06-02 14:02:50[main] [ApiApplication:61] - Started ApiApplication in 8.321 seconds (JVM running for 9.315)
+INFO  23-06-02 14:02:50[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 14:02:50[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.domain.order.Handler, segment=Segment[0/0]}
+INFO  23-06-02 14:02:50[EventProcessor[web.api.domain.order.Handler]-0] [TrackingEventProcessor:587] - Fetched token: IndexTrackingToken{globalIndex=6} for segment: Segment[0/0]
+INFO  23-06-02 14:02:57[http-nio-5000-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-02 14:02:57[http-nio-5000-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-02 14:02:57[http-nio-5000-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-02 14:50:28[main] [ApiApplication:55] - Starting ApiApplication using Java 17.0.7 on limdoyoung with PID 9016 (C:\Users\dlaeh\workSpaces\spring-axon-sample\target\classes started by dlaeh in C:\Users\dlaeh\workSpaces\spring-axon-sample)
+INFO  23-06-02 14:50:28[main] [ApiApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-06-02 14:50:29[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-02 14:50:29[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+INFO  23-06-02 14:50:30[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 5000 (http)
+INFO  23-06-02 14:50:30[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 14:50:30[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-02 14:50:30[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-06-02 14:50:31[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-02 14:50:31[main] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2764 ms
+INFO  23-06-02 14:50:31[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-02 14:50:31[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+INFO  23-06-02 14:50:32[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-02 14:50:32[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-02 14:50:32[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-02 14:50:32[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+INFO  23-06-02 14:50:33[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-02 14:50:33[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-02 14:50:33[main] [XStreamAutoConfiguration:60] - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+INFO  23-06-02 14:50:33[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [web.api].
+INFO  23-06-02 14:50:33[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+INFO  23-06-02 14:50:33[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventhandling.deadletter.jpa].
+INFO  23-06-02 14:50:33[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+INFO  23-06-02 14:50:33[main] [XStreamSecurityTypeUtility:56] - Constructing wildcard type for base package [org.axonframework.eventsourcing.eventstore.jpa].
+INFO  23-06-02 14:50:33[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 14:50:33[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+INFO  23-06-02 14:50:33[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+INFO  23-06-02 14:50:33[main] [ChainingConverter:157] - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+WARN  23-06-02 14:50:34[main] [JpaBaseConfiguration$JpaWebConfiguration:223] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-02 14:50:35[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-5000"]
+INFO  23-06-02 14:50:35[main] [TomcatWebServer:220] - Tomcat started on port(s): 5000 (http) with context path ''
+INFO  23-06-02 14:50:36[main] [AxonServerManagedChannel:112] - Requesting connection details from 127.0.0.1:8124
+INFO  23-06-02 14:50:36[main] [AxonServerManagedChannel:346] - Successfully connected to 127.0.0.1:8124
+INFO  23-06-02 14:50:36[main] [ControlChannelImpl:170] - Connected instruction stream for context 'default'. Sending client identification
+INFO  23-06-02 14:50:36[main] [CommandChannelImpl:182] - CommandChannel for context 'default' connected, 0 command handlers registered
+INFO  23-06-02 14:50:36[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.axon.coreapi.Command.ShipOrderCommand' in context 'default'
+INFO  23-06-02 14:50:36[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.axon.coreapi.Command.CreateOrderCommand' in context 'default'
+INFO  23-06-02 14:50:36[main] [CommandChannelImpl:248] - Registered handler for command 'web.api.axon.coreapi.Command.ConfirmOrderCommand' in context 'default'
+INFO  23-06-02 14:50:36[main] [QueryChannelImpl:258] - QueryChannel for context 'default' connected, 0 registrations resubscribed
+INFO  23-06-02 14:50:36[main] [QueryChannelImpl:313] - Registered handler for query 'web.api.axon.coreapi.Query.FindAllOrderedProductsQuery : java.util.List<web.api.axon.coreapi.Query.Order>' in context 'default'
+INFO  23-06-02 14:50:36[main] [ApiApplication:61] - Started ApiApplication in 8.377 seconds (JVM running for 9.292)
+INFO  23-06-02 14:50:36[EventProcessor[web.api.axon.queryModel]-0] [TrackingEventProcessor:1253] - Worker assigned to segment Segment[0/0] for processing
+INFO  23-06-02 14:50:36[EventProcessor[web.api.axon.queryModel]-0] [TrackingEventProcessor:1337] - Using current Thread for last segment worker: TrackingSegmentWorker{processor=web.api.axon.queryModel, segment=Segment[0/0]}
+INFO  23-06-02 14:50:36[EventProcessor[web.api.axon.queryModel]-0] [TrackingEventProcessor:587] - Fetched token: null for segment: Segment[0/0]

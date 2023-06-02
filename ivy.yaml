@@ -1,0 +1,12 @@
+# ivy configuration file which defines the postgres
+# container as system database
+SystemDb:
+  Driver: com.mysql.cj.jdbc.Driver
+  Url: jdbc:mysql://localhost:3306/mysql_db
+  UserName: lian
+  Password: osclablian!
+  Autoconvert: false
+  
+Administrators:
+  admin:
+    Password: admin

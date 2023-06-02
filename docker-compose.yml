@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+
+  ivy:
+    image: axonivy/axonivy-engine:dev
+    ports:
+     - 8080:8080
+    volumes:
+     # ivy configuration
+     - ./ivy.yaml:/etc/axonivy-engine/ivy.yaml
+
+     # mount application directory to the host where this directory is persisted
+     # otherwise you will loose application deployments when container will be
+     # destroyed
+     - ./applications:/usr/lib/axonivy-engine/applications
+
+     # place the licence.lic file in the same directory as docker-compose.yaml
+     - ./licence.lic:/etc/axonivy-engine/licence.lic
+
+  # postgres:
+    # image: postgres:15
+    # environment:
+    #   POSTGRES_USER: admin
+    #   POSTGRES_PASSWORD: 1234
+
+  # docker run -d --name axon -p 8080:10080/tcp -d axonivy/axonivy-engine:11.1
+  # docker run -d --name axonserver -p 8024:8024 -p 8124:8124 axoniq/axonserver
