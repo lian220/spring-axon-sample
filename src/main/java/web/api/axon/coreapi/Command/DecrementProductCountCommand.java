@@ -4,6 +4,9 @@ import java.util.Objects;
 
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
+import lombok.Getter;
+
+@Getter
 public class DecrementProductCountCommand {
 
     @TargetAggregateIdentifier
@@ -13,14 +16,6 @@ public class DecrementProductCountCommand {
     public DecrementProductCountCommand(String orderId, String productId) {
         this.orderId = orderId;
         this.productId = productId;
-    }
-
-    public String getOrderId() {
-        return orderId;
-    }
-
-    public String getProductId() {
-        return productId;
     }
 
     @Override

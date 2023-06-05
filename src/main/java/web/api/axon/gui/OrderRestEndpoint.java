@@ -5,30 +5,28 @@ import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
 import org.axonframework.commandhandling.gateway.CommandGateway;
-import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import lombok.RequiredArgsConstructor;
+import reactor.core.publisher.Flux;
 import web.api.axon.coreapi.Command.AddProductCommand;
 import web.api.axon.coreapi.Command.ConfirmOrderCommand;
 import web.api.axon.coreapi.Command.CreateOrderCommand;
 import web.api.axon.coreapi.Command.ShipOrderCommand;
-import web.api.axon.coreapi.Query.FindAllOrderedProductsQuery;
-import web.api.axon.coreapi.Query.Order;
+import web.api.axon.queryModel.OrderQueryService;
+import web.api.axon.queryModel.OrderResponse;
 
 @RestController
+@RequiredArgsConstructor
 public class OrderRestEndpoint {
     
     private final CommandGateway commandGateway;
-    private final QueryGateway queryGateway;
-
-    public OrderRestEndpoint(CommandGateway commandGateway, QueryGateway queryGateway) {
-        this.commandGateway = commandGateway;
-        this.queryGateway = queryGateway;
-    }
+    private final OrderQueryService orderQueryService;
 
     @PostMapping("/order")
     public CompletableFuture<String> createOrder() {
@@ -55,7 +53,13 @@ public class OrderRestEndpoint {
     }
 
     @GetMapping("/all-orders")
-    public CompletableFuture<List<Order>> findAllOrders() {
-        return queryGateway.query(new FindAllOrderedProductsQuery(), ResponseTypes.multipleInstancesOf(Order.class));
+    public CompletableFuture<List<OrderResponse>> findAllOrders() {
+        CompletableFuture<List<OrderResponse>> list = orderQueryService.findAllOrders();
+        return list;
+    }
+
+    @GetMapping(path = "/all-orders-streaming", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    public Flux<OrderResponse> allOrdersStreaming() {
+        return orderQueryService.allOrdersStreaming();
     }
 }

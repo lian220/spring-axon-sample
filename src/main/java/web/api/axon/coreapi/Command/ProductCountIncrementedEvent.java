@@ -2,6 +2,9 @@ package web.api.axon.coreapi.Command;
 
 import java.util.Objects;
 
+import lombok.Getter;
+
+@Getter
 public class ProductCountIncrementedEvent {
 
     private final String orderId;
@@ -10,14 +13,6 @@ public class ProductCountIncrementedEvent {
     public ProductCountIncrementedEvent(String orderId, String productId) {
         this.orderId = orderId;
         this.productId = productId;
-    }
-
-    public String getOrderId() {
-        return orderId;
-    }
-
-    public String getProductId() {
-        return productId;
     }
 
     @Override
