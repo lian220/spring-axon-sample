@@ -42,3 +42,4 @@ secrets.yml
 .sts4-cache
 # logback-spring.xml
 api.log
+/*.log

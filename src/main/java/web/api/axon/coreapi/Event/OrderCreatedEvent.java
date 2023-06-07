@@ -12,10 +12,6 @@ public class OrderCreatedEvent {
         this.orderId = orderId;
     }
 
-    public String getOrderId() {
-        return orderId;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) {

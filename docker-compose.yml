@@ -1,21 +1,14 @@
-version: '3.7'
+version: "3"
+
 services:
-
-  ivy:
-    image: axonivy/axonivy-engine:dev
+  axon-server:
+    image: axoniq/axonserver:4.6.4
+    container_name: axon-server
+    healthcheck:
+      test: curl -f http://localhost:8024/actuator/health || exit 1;
     ports:
-     - 8080:8080
-    volumes:
-     # ivy configuration
-     - ./ivy.yaml:/etc/axonivy-engine/ivy.yaml
-
-     # mount application directory to the host where this directory is persisted
-     # otherwise you will loose application deployments when container will be
-     # destroyed
-     - ./applications:/usr/lib/axonivy-engine/applications
-
-     # place the licence.lic file in the same directory as docker-compose.yaml
-     - ./licence.lic:/etc/axonivy-engine/licence.lic
+      - 8024:8024
+      - 8124:8124
 
   # postgres:
     # image: postgres:15
